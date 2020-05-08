@@ -1,0 +1,140 @@
+
+@media only  screen and (min-width:300px){
+
+    div img {
+        margin: 25px;
+    }
+
+    body{
+        margin:0px;
+    }
+    
+    .prussian{
+        color: #0B3C5D;
+    }
+    
+    .prussian-bg{
+        background-color: #0B3C5D;
+    }
+    
+    .ivory{
+        color: #1D2731;
+    }
+    
+    .golden-leaf{
+        color: #D9B310;
+    }
+    
+    .skyblue{
+        color:#328CC1;
+    }
+    
+    .font-roboto{
+        font-family:roboto;
+    }
+    
+    .title-header {
+        margin: 5px;
+    }
+    
+    @font-face{
+        font-family: 'roboto';
+        src:url('../../fonts/roboto/Roboto-Bold.ttf');
+    }
+
+}
+
+@media only screen and (min-width:400px){
+
+}
+
+@media only screen and (min-width:768px){
+
+    div img {
+        margin: 0px;
+    }
+
+
+    body{
+        margin:0px;
+    }
+    
+    .prussian{
+        color: #0B3C5D;
+    }
+    
+    .prussian-bg{
+        background-color: #0B3C5D;
+    }
+    
+    .ivory{
+        color: #1D2731;
+    }
+    
+    .golden-leaf{
+        color: #D9B310;
+    }
+    
+    .skyblue{
+        color:#328CC1;
+    }
+    
+    .font-roboto{
+        font-family:roboto;
+    }
+    
+    .title-header {
+        margin: 5px;
+    }
+    
+    @font-face{
+        font-family: 'roboto';
+        src:url('../../fonts/roboto/Roboto-Bold.ttf');
+    }
+
+    p#paragraf {
+        padding-top: 25%;
+    }
+
+}
+
+@media only screen and (min-width:1440px){
+
+    body{
+        margin:0px;
+    }
+    
+    .prussian{
+        color: #0B3C5D;
+    }
+    
+    .prussian-bg{
+        background-color: #0B3C5D;
+    }
+    
+    .ivory{
+        color: #1D2731;
+    }
+    
+    .golden-leaf{
+        color: #D9B310;
+    }
+    
+    .skyblue{
+        color:#328CC1;
+    }
+    
+    .font-roboto{
+        font-family:roboto;
+    }
+    
+    .title-header {
+        margin: 5px;
+    }
+    
+    @font-face{
+        font-family: 'roboto';
+        src:url('../../fonts/roboto/Roboto-Bold.ttf');
+    }
+
+}
