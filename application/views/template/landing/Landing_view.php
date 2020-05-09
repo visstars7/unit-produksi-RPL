@@ -3,7 +3,7 @@
     
     <nav>
 
-        <img style="width:100%;" src="<?=base_url('assets/Resource/wave.svg')?>" alt="wave.svg">
+        <img id="wave-pict" src="<?=base_url('assets/Resource/wave2.svg')?>" alt="wave.svg">
 
     </nav>
 
@@ -44,7 +44,7 @@
 
                 <div class="text-center">
 
-                    <a class="mt-2 btn prussian-bg font-roboto" style="color:white" href="Beranda">GET STARTED</a>
+                    <a class="mt-2 btn prussian-bg font-roboto" style="color:white" href="dashboard">GET STARTED</a>
 
                 </div>
             

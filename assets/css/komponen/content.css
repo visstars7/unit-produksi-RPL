@@ -1,0 +1,12 @@
+#content {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: calc(100% - 250px);
+    min-height: 100vh;
+    transition:all 0.3s
+}
+
+#content.full{
+    width: 100%;
+}
