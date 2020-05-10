@@ -52,4 +52,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'landing';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
-$route['dashboard'] = 'Dashboard/Beranda';
+$route['beranda'] = 'Beranda/beranda';
+$route['portofolio'] = 'Portofolio/portofolio';
+$route['hubungi-kami'] = 'Hubungi_kami/hubungi_kami';

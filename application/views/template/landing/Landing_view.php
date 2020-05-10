@@ -44,7 +44,7 @@
 
                 <div class="text-center">
 
-                    <a class="mt-2 btn prussian-bg font-roboto" style="color:white" href="dashboard">GET STARTED</a>
+                    <a class="mt-2 btn prussian-bg font-roboto" style="color:white" href="beranda">GET STARTED</a>
 
                 </div>
             

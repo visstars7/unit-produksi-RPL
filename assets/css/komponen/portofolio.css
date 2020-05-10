@@ -1,0 +1,42 @@
+
+@media only screen and (min-width:300px){
+
+    .images img{
+        width: 100%;
+        margin-bottom:30px;
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
+        transition:all 0.3s
+    }
+    .images img:hover{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:768px){
+
+    .images img{
+        width: 100%;
+        margin-bottom:30px;
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
+        transition:all 0.3s
+    }
+    .images img:hover{
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:920px){
+
+    .images img{
+        width: 100%;
+        margin-bottom:30px;
+        box-shadow: 0px 6px 12px rgba(0,0,0,0.2);
+        transition:all 0.3s
+    }
+    .images img:hover{
+        width: 102%;
+    }
+
+}
