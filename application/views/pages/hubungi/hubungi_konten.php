@@ -1,6 +1,6 @@
 <div class="row text-center justify-content-center">
 
-    <h2 class="font-roboto prussian">Hubungi Kami</h2>
+    <h2 class="font-roboto prussian">HUBUNGI KAMI</h2>
 
 </div>
 
@@ -33,10 +33,19 @@
 
             </li>
 
-            <li>
+            <li style="padding-left:0">
 
-                Email : smkn1boyolangu@yahoo.co.id
-                Phone : (0355) 323224
+                <ul style="padding-left:0">
+
+                    <li style="padding:0px 20px">
+                        Email : <a href="mailto: smkn1boyolangu@yahoo.co.id"> smkn1boyolangu@yahoo.co.id</a>
+                    </li>
+
+                    <li>
+                        Telp : (0355) 323224
+                    </li>
+
+                </ul>
 
             </li>
 

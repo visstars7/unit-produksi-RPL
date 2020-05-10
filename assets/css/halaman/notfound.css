@@ -1,0 +1,40 @@
+body{
+    margin:0px;
+    background-color: #FAF9F9;
+}
+
+.message{
+
+    color: rgba(11, 60, 93, 0.609);
+    font-size: 20px;
+}
+
+.prussian{
+    color: #0B3C5D;
+}
+
+.prussian-bg{
+    background-color: #0B3C5D!important;
+    border-color: #0B3C5D!important;
+}
+
+.ivory{
+    color: #1D2731;
+}
+
+.golden-leaf{
+    color: #D9B310;
+}
+
+.skyblue{
+    color:#328CC1;
+}
+
+.font-roboto{
+    font-family:roboto;
+}
+
+@font-face{
+    font-family: 'roboto';
+    src:url('../../fonts/roboto/Roboto-Bold.ttf');
+}
