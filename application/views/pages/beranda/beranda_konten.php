@@ -24,7 +24,7 @@
                             <li>Web Company Profile</li>
                             <li>Web Online Shop</li>
                             <li>Aplikasi Berbasis Web</li>
-                            <li>Penjulan Hosting dan Domain</li>
+                            <li>Desain UI & UX</li>
                             <li>Pengetikan dan Input Data</li>
                             <li>Pembuatan Aplikasi Desktop</li>
 
