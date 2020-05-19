@@ -1,13 +1,16 @@
 <?php 
 
-    function aktifclass($data = ''){
+    function aktifclass($data = '')
+    {
 
         $ci =& get_instance();
 
-        if($ci->router->fetch_class() == $data){
+        if($ci->router->fetch_class() == $data)
+        {
             return "active";
         }
-        else{
+        else
+        {
             return false;
         }
 

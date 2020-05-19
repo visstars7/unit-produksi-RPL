@@ -4,10 +4,10 @@
     
             <ul class="menu">
     
-                <li class="font-roboto <?= aktifclass('Beranda') ?>"><?= anchor('beranda','Beranda'); ?></li>
-                <li class="font-roboto <?php if($this->router->fetch_class()=="Portofolio")echo "active" ?>"><?= anchor('portofolio','Portofolio'); ?></li>
-                <li class="font-roboto <?php if($this->router->fetch_class()=="Hubungi_kami")echo "active" ?>"><?= anchor('hubungi-kami','Hubungi Kami'); ?></li>
-    
+                <li class="font-roboto <?= aktifclass('Beranda') ?>">       <?= anchor('beranda','Beranda'); ?></li>
+                <li class="font-roboto <?= aktifclass('Portofolio')?>">     <?= anchor('portofolio','Portofolio'); ?></li>
+                <li class="font-roboto <?= aktifclass('Hubungi_kami')?>">   <?= anchor('hubungi-kami','Hubungi Kami'); ?></li>
+                <li class="font-roboto <?= aktifclass('Struktur')?>">       <?= anchor('struktur','Struktur Organisasi'); ?></li>
             </ul>
     
         </nav>

@@ -6,7 +6,6 @@
 
 <div class="row">
 
-
     <div class="col-md-6 col-12">
 
         <div class="images-hubungi text-center">
@@ -53,5 +52,42 @@
 
     </div>
 
+    <div class="col-md-6">
+
+        <div class="form-wrap">
+
+            <?= form_open('pesan'); ?>
+
+                <div class="form-group">
+
+                    <label for='nama'>Nama</label>
+                    <input class="form-control w-75" type='text' name='nama' id='nama' placeholder=''>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for='nama'>No.Telp</label>
+                    <input class="form-control w-75" type='text' name='nama' id='nama' placeholder=''>
+
+                </div>
+
+                <div class="form-group">
+
+                    <label for='pesan'>Pesan</label>
+                    <textarea class="form-control w-75" name="pesan" id="pesan" cols="5" rows="5"></textarea>
+
+                </div>
+                <div class="form-group">
+
+                    <button class="btn btn-success w-75" type="submit">Kirim</button>
+
+                </div>
+
+            <?php form_close(); ?>
+
+        </div>
+
+    </div>
 
 </div>
