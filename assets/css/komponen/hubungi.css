@@ -1,12 +1,79 @@
-.images-hubungi img {
-    width: 60%;
-    padding-top: 10%;
+@media only screen and (min-width:350px){
+    
+    form{
+        width: 100%;
+    }
+
+    .images-hubungi img {
+        width: 60%;
+        padding-top: 10%;
+    }
+    
+    ul.list-contact{
+        padding-top:20%;
+    }
+    
+    ul.list-contact li {
+        padding: 20px;
+    }
+    
+    .form-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+@media only screen and (min-width:768px){
+
+    form{
+        width: 40%;
+    }
+
+    .images-hubungi img {
+        width: 60%;
+        padding-top: 10%;
+    }
+    
+    ul.list-contact{
+        padding-top:20%;
+    }
+    
+    ul.list-contact li {
+        padding: 20px;
+    }
+    
+    .form-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }
 
-ul.list-contact{
-    padding-top:20%;
-}
+@media only screen and (min-width:920px){
 
-ul.list-contact li {
-    padding: 20px;
+    form{
+        width: 50%;
+    }
+
+    .images-hubungi img {
+        width: 60%;
+        padding-top: 10%;
+    }
+    
+    ul.list-contact{
+        padding-top:20%;
+    }
+    
+    ul.list-contact li {
+        padding: 20px;
+    }
+    
+    .form-wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
 }

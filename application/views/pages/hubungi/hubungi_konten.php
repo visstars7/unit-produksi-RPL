@@ -52,8 +52,18 @@
 
     </div>
 
-    <div class="col-md-6">
+</div>
 
+<div class="row  text-center justify-content-center mt-3 mb-3">
+
+    <h4 class="font-roboto prussian">Tinggalkan Pesan</h4>
+
+</div>
+
+<div class="row">
+
+    <div class="col-md-12">
+    
         <div class="form-wrap">
 
             <?= form_open('pesan'); ?>
@@ -61,26 +71,33 @@
                 <div class="form-group">
 
                     <label for='nama'>Nama</label>
-                    <input class="form-control w-75" type='text' name='nama' id='nama' placeholder=''>
+                    <input class="form-control w-100" type='text' name='nama' id='nama' placeholder=''>
 
                 </div>
 
                 <div class="form-group">
 
                     <label for='nama'>No.Telp</label>
-                    <input class="form-control w-75" type='text' name='nama' id='nama' placeholder=''>
+                    <input class="form-control w-100" type='text' name='nama' id='nama' placeholder=''>
+
+                </div>
+
+                <div class="form-group">
+                
+                    <label for='email'>Alamat Email</label>
+                    <input type='email' name='email' id='email' class="form-control w-100">
 
                 </div>
 
                 <div class="form-group">
 
                     <label for='pesan'>Pesan</label>
-                    <textarea class="form-control w-75" name="pesan" id="pesan" cols="5" rows="5"></textarea>
+                    <textarea class="form-control w-100" name="pesan" id="pesan" cols="5" rows="5"></textarea>
 
                 </div>
                 <div class="form-group">
 
-                    <button class="btn btn-success w-75" type="submit">Kirim</button>
+                    <button class="btn btn-success w-100" type="submit">Kirim</button>
 
                 </div>
 
